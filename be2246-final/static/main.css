@@ -1,0 +1,17 @@
+.navbar-nav .nav-item .nav-link {
+    color: #444;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: #00b337;
+
+    /*color: #00b337;*/
+}
+
+.center {
+  display: block;
+  max-height:50vh;
+  margin-left: auto;
+  margin-right: auto;
+}

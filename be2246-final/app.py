@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Apr 21 14:57:17 2020
-
-@author: etill
+@author: Bora Elci be2246
+Final Project Personal Website
 """
 
 #import statements
@@ -15,6 +14,10 @@ app = Flask(__name__)
 @app.route("/")
 def hello():
     return render_template("index.html")
+
+@app.route("/1006")
+def tenoosix():
+    return "This is 1006! Welcome."
 
 #start the server
 if __name__ == "__main__":
